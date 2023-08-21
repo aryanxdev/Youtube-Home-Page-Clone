@@ -1,0 +1,142 @@
+.yt-home-button{
+    position: relative;
+}
+.yt-home-button .tooltip{
+    color: black;
+    background-color: rgb(251, 246, 209);
+    font-size: 12px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 3px;
+    padding-left: 3px;
+    border: 1px solid black;
+    transition: all 0.15s;
+    position: absolute;
+    bottom: -30px;
+    left: 4px;
+    opacity: 0;
+    pointer-events: none;
+}
+.yt-home-button:hover .tooltip{
+    opacity: 1;
+}
+
+.search-button{
+    position: relative;
+}
+.search-button .tooltip{
+    color: black;
+    background-color: rgb(251, 246, 209);
+    font-size: 12px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 3px;
+    padding-left: 3px;
+    border: 1px solid black;
+    transition: all 0.15s;
+    position: absolute;
+    bottom: -32px;
+    left: 10px;
+    opacity: 0;
+    pointer-events: none;
+}
+.search-button:hover .tooltip{
+    opacity: 1;
+}
+
+.voice-search{
+    position: relative;
+}
+.voice-search .tooltip{
+    width:max-content;
+    color: black;
+    background-color: rgb(251, 246, 209);
+    font-size: 12px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 3px;
+    padding-left: 3px;
+    border: 1px solid black;
+    transition: all 0.15s;
+    position: absolute;
+    bottom: -32px;
+    left: -25px;
+    opacity: 0;
+    pointer-events: none;
+}
+.voice-search:hover .tooltip{
+    opacity: 1;
+}
+
+.create-button{
+    position: relative;
+}
+.create-button .tooltip{
+    width:max-content;
+    color: black;
+    background-color: rgb(251, 246, 209);
+    font-size: 12px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 3px;
+    padding-left: 3px;
+    border: 1px solid black;
+    transition: all 0.15s;
+    position: absolute;
+    bottom: -32px;
+    left: -8px;
+    opacity: 0;
+    pointer-events: none;
+}
+.create-button:hover .tooltip{
+    opacity: 1;
+}
+
+.yt-apps-button{
+    position: relative;
+}
+.yt-apps-button .tooltip{
+    width:max-content;
+    color: black;
+    background-color: rgb(251, 246, 209);
+    font-size: 12px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 3px;
+    padding-left: 3px;
+    border: 1px solid black;
+    transition: all 0.15s;
+    position: absolute;
+    bottom: -32px;
+    left: -30px;
+    opacity: 0;
+    pointer-events: none;
+}
+.yt-apps-button:hover .tooltip{
+    opacity: 1;
+}
+
+.notifications-button{
+    position: relative;
+}
+.notifications-button .tooltip{
+    width:max-content;
+    /* white-space: nowrap; */
+    color: black;
+    background-color: rgb(251, 246, 209);
+    font-size: 12px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 3px;
+    padding-left: 3px;
+    border: 1px solid black;
+    transition: all 0.15s;
+    position: absolute;
+    bottom: -32px;
+    left: -25px;
+    opacity: 0;
+    pointer-events: none;
+}
+.notifications-button:hover .tooltip{
+    opacity: 1;
+}

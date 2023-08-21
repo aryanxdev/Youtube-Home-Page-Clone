@@ -1,0 +1,1160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube(clone)</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="sidebar.css" />
+    <link rel="stylesheet" href="general.css" />
+    <link rel="stylesheet" href="shorts.css" />
+    <link rel="stylesheet" href="tootltips.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- YOUTUBE HEADER -->
+
+    <header class="yt-header">
+      <div class="left-section">
+        <div></div>
+
+        <button class="hamburger-menu-button">
+          <img
+            src="https://supersimple.dev/public/img/exercises/youtube/icons/hamburger-menu.svg"
+            alt="menu"
+            class="hamburger-menu"
+          />
+        </button>
+
+        <button class="yt-home-button">
+          <img
+            src="https://supersimple.dev/public/img/exercises/youtube/icons/youtube-logo.svg"
+            alt="Home"
+            class="yt-logo"
+          />
+          <div class="tooltip">YouTube Home</div>
+        </button>
+      </div>
+
+      <div class="middle-section">
+        <input type="text" placeholder="Search" class="search-yt" />
+
+        <button class="search-button">
+          <img
+            src="https://supersimple.dev/public/img/exercises/youtube/icons/search.svg"
+            alt="Tap to search" 
+            class="search-button-img"
+          />
+          <div class="tooltip">Search</div>
+        </button>
+
+        <button class="voice-search">
+          <img
+            src="https://supersimple.dev/public/img/exercises/youtube/icons/voice-search-icon.svg"
+            alt="Search by voice"
+            class="voice-search-img"
+          />
+          <div class="tooltip">Search by voice</div>
+        </button>
+      </div>
+
+      <div class="right-section">
+        <button class="create-button">
+          <img
+            src="https://supersimple.dev/public/img/exercises/youtube/icons/upload.svg"
+            alt="Create"
+          />
+          <div class="tooltip">Create</div>
+        </button>
+
+        <button class="yt-apps-button">
+          <img
+            src="https://supersimple.dev/public/img/exercises/youtube/icons/youtube-apps.svg"
+            alt="Youtube Apps"
+          />
+          <div class="tooltip">YouTube Apps</div>
+        </button>
+
+        <div class="notifications-button-container">
+        <button class="notifications-button">
+          <img
+            src="https://supersimple.dev/public/img/exercises/youtube/icons/notifications.svg"
+            alt="Notifications" 
+          />
+          <div class="tooltip">Notifications</div>
+        </button>
+        <div class="number-of-notifications">9</div>
+      </div>
+
+        <img
+          src="https://www.dexerto.com/cdn-cgi/image/width=3840,quality=75,format=auto/https://editors.dexerto.com/wp-content/uploads/2020/09/jon-snow-game-of-thrones-uhdpapercom-4k-95-e1655468173608.jpg"
+          alt="Your Profile"
+          class="your-profile-button"
+        />
+      </div>
+    </header>
+
+    <!-- YOUTUBE HEADER -->
+
+    <!-- YOUTUBE SIDEBAR -->
+
+    <nav class="sidebar">
+      <div class="sidebar-icon">
+        <img
+          src="https://supersimple.dev/public/img/exercises/youtube/icons/home.svg"
+          alt="Home"
+          class="sidebar-icon-img"
+        />
+        <p class="icon-name">Home</p>
+      </div>
+
+      <div class="sidebar-icon">
+        <img
+          src="https://supersimple.dev/public/img/exercises/youtube/icons/explore.svg"
+          alt="Home"
+          class="sidebar-icon-img"
+        />
+        <p class="icon-name">Explore</p>
+      </div>
+
+      <div class="sidebar-icon">
+        <img
+          src="https://supersimple.dev/public/img/exercises/youtube/icons/subscriptions.svg"
+          alt="Home"
+          class="sidebar-icon-img"
+        />
+        <p class="icon-name">Subscriptions</p>
+      </div>
+
+      <div class="sidebar-icon">
+        <img
+          src="https://supersimple.dev/public/img/exercises/youtube/icons/originals.svg"
+          alt="Home"
+          class="sidebar-icon-img"
+        />
+        <p class="icon-name">Originals</p>
+      </div>
+
+      <div class="sidebar-icon">
+        <img
+          src="https://supersimple.dev/public/img/exercises/youtube/icons/youtube-music.svg"
+          alt="Home"
+          class="sidebar-icon-img"
+        />
+        <p class="icon-name">Music</p>
+      </div>
+
+      <div class="sidebar-icon">
+        <img
+          src="https://supersimple.dev/public/img/exercises/youtube/icons/library.svg"
+          alt="Home"
+          class="sidebar-icon-img"
+        />
+        <p class="icon-name">Library</p>
+      </div>
+
+      <div class="sidebar-icon">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC56YvgN8x2hv6lVkMtTasrIFXE2zB4gWYzQ"
+          alt="Home"
+          class="sidebar-icon-img"
+        />
+        <p class="icon-name">Shorts</p>
+      </div>
+    </nav>
+
+    <!-- YOUTUBE SIDEBAR -->
+
+    <!-- video previews -->
+
+    <!-- 1 -->
+    <main>
+      <section class="youtube-home-grid">
+        <div class="video-preview">
+          <div class="thumbnail-container">
+            <a href="https://www.youtube.com/watch?v=KYqEK_T_5M4"
+              ><img
+                src="https://i.ytimg.com/vi/KYqEK_T_5M4/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAKreCH60EB8l5aQey5nah_su7SSA"
+                class="thumbnail"
+                alt=""
+            /></a>
+            <div class="time-stats">17&#58;37</div>
+          </div>
+
+          <div class="channel-info-video-stats">
+            <div class="channel-profile">
+              <a href="https://www.youtube.com/@AlexHormozi">
+                <img
+                  src="https://yt3.googleusercontent.com/p0015Y5AbiwROJtOZPeXkhadnjOXOlygUzlyiv0zsAPJkh6Ur1Vr01qWJ8bvo5QdDLw_4Z724oY=s176-c-k-c0x00ffffff-no-rj"
+                  alt=""
+                  class="channel-profile-pic"
+                />
+              </a>
+            </div>
+
+            <div class="title-channelName-videoStats">
+              <div class="video-title">
+                <a href="https://www.youtube.com/watch?v=KYqEK_T_5M4" class="video-title-link">
+                <p class="title">Get RICH in the A.I. Rvolution &#40;2023&#41;</p>
+                </a>
+              </div>
+              <div class="chname">
+                  <a href="https://www.youtube.com/@AlexHormozi" class="channel-name-link">
+                  <p class="channel-name">Alex Hormozi</p>
+                  </a>
+              </div>
+              <div>
+                <p class="views">2&#46;8M views &#183; 7 months ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="video-preview">
+          <div class="thumbnail-container">
+            <a href="https://www.youtube.com/watch?v=K8UgjzJTdHw"
+              ><img
+                src="https://i.ytimg.com/vi/K8UgjzJTdHw/maxresdefault.jpg"
+                class="thumbnail"
+                alt=""
+            /></a>
+            <div class="time-stats">1&#58;36&#58;36</div>
+          </div>
+
+          <div class="channel-info-video-stats">
+            <div class="channel-profile">
+              <a href="https://www.youtube.com/@TheDiaryOfACEO"
+                ><img
+                  src="https://yt3.googleusercontent.com/xSwK9eN4KTkDzIA0Qfv6ng_QQ1JrI_GxGFRp_97TWPaO5euI6Z1gxjNUksfktPka6b26l_zx=s176-c-k-c0x00ffffff-no-rj"
+                  alt=""
+                  class="channel-profile-pic"
+                />
+              </a>
+            </div>
+
+            <div class="title-channelName-videoStats">
+              <div class="video-title">
+                <a href="https://www.youtube.com/watch?v=K8UgjzJTdHw" class="video-title-link">
+                <p class="title">
+                  Worlds Youngest Billionaire: A Business Journey That Started at 19
+                </p></a>
+              </div>
+              <div class="chname">
+                <a href="https://www.youtube.com/@TheDiaryOfACEO" class="channel-name-link">
+                <p class="channel-name">The Diary of A CEO</p></a>
+              </div>
+              <div class="views">
+                <p class="view-count">877k views &#183; 1 year ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="video-preview">
+          <div class="thumbnail-container">
+            <a href="https://www.youtube.com/watch?v=V-parU_vIDQ"
+              ><img
+                src="https://i.ytimg.com/vi/V-parU_vIDQ/maxresdefault.jpg"
+                class="thumbnail"
+                alt=""
+            /></a>
+            <div class="time-stats">28&#58;13</div>
+          </div>
+
+          <div class="channel-info-video-stats">
+            <div class="channel-profile">
+              <a href="https://www.youtube.com/@WildNOut/featured"
+                ><img
+                  src="https://yt3.googleusercontent.com/AVD-a6ssNbPjv768TnqwcoSDHggxYAoCZrhFfWC-hBKT6Kxru9gyO3ru4vnXzk9AVw8CHopj=s176-c-k-c0x00ffffff-no-rj"
+                  alt=""
+                  class="channel-profile-pic"
+                />
+              </a>
+            </div>
+
+            <div class="title-channelName-videoStats">
+              <div class="video-title">
+                <a href="https://www.youtube.com/watch?v=V-parU_vIDQ" class="video-title-link">
+                <p class="title">
+                  DC Young Fly's Funniest Season 18 Moments | Wild 'N Out
+                </p></a>
+              </div>
+              <div class="chname">
+                <a href="https://www.youtube.com/@WildNOut/featured" class="channel-name-link">
+                <p class="channel-name">Wild 'N Out</p></a>
+              </div>
+              <div class="views">
+                <p class="view-count">6.4M views &#183; 9 months ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4 -->
+        <div class="video-preview">
+          <div class="thumbnail-container">
+            <a href="https://www.youtube.com/watch?v=T9GvDekiJ9c"
+              ><img
+                src="https://i.ytimg.com/vi/T9GvDekiJ9c/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDEu678QfxFOGv5aplR0t62IbqruQ"
+                class="thumbnail"
+                alt=""
+            /></a>
+            <div class="time-stats">1&#58;03&#58;40</div>
+          </div>
+
+          <div class="channel-info-video-stats">
+            <div class="channel-profile">
+              <a href="https://www.youtube.com/@VALUETAINMENT"
+                ><img
+                  src="https://yt3.googleusercontent.com/ytc/AOPolaR-19__c2UhMqojl2UVS7f5wcUnzxk4cv3fGS4IWQ=s176-c-k-c0x00ffffff-no-rj"
+                  alt=""
+                  class="channel-profile-pic"
+                />
+              </a>
+            </div>
+
+            <div class="title-channelName-videoStats">
+              <div class="video-title">
+                <a href="https://www.youtube.com/watch?v=T9GvDekiJ9c" class="video-title-link">
+                <p class="title">
+                  Kobe Bryant's Last Great Interview
+                </p></a>
+              </div>
+              <div class="chname">
+                <a href="https://www.youtube.com/@VALUETAINMENT" class="channel-name-link">
+                <p class="channel-name">Valuetainment</p></a>
+              </div>
+              <div class="views">
+                <p class="view-count">4.6M views &#183; 3 years ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5 -->
+        <div class="video-preview">
+          <div class="thumbnail-container">
+            <a href="https://www.youtube.com/watch?app=desktop&v=nYrjhv-AFZA"
+              ><img
+                src="https://i.ytimg.com/vi/nYrjhv-AFZA/maxresdefault.jpg"
+                class="thumbnail"
+                alt=""
+            /></a>
+            <div class="time-stats">1&#58;48&#58;42</div>
+          </div>
+
+          <div class="channel-info-video-stats">
+            <div class="channel-profile">
+              <a href="https://www.youtube.com/@TheDiaryOfACEO"
+                ><img
+                  src="https://yt3.googleusercontent.com/xSwK9eN4KTkDzIA0Qfv6ng_QQ1JrI_GxGFRp_97TWPaO5euI6Z1gxjNUksfktPka6b26l_zx=s176-c-k-c0x00ffffff-no-rj"
+                  alt=""
+                  class="channel-profile-pic"
+                />
+              </a>
+            </div>
+
+            <div class="title-channelName-videoStats">
+              <div class="video-title">
+                <a href="https://www.youtube.com/watch?app=desktop&v=nYrjhv-AFZA" class="video-title-link">
+                <p class="title">
+                  Jay Shetty: The 3 Simple Things A Happy Life Needs
+                </p></a>
+              </div>
+              <div class="chname">
+                <a href="https://www.youtube.com/@TheDiaryOfACEO" class="channel-name-link">
+                <p class="channel-name">The Diary of A CEO</p></a>
+              </div>
+              <div class="views">
+                <p class="view-count">644k views &#183; 1 year ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6 -->
+        <div class="video-preview">
+          <div class="thumbnail-container">
+            <a href="https://www.youtube.com/watch?v=GL7Mo_B3O74"
+              ><img
+                src="https://i.ytimg.com/vi/GL7Mo_B3O74/maxresdefault.jpg"
+                class="thumbnail"
+                alt=""
+            /></a>
+            <div class="time-stats">9&#58;16</div>
+          </div>
+
+          <div class="channel-info-video-stats">
+            <div class="channel-profile">
+              <a href="https://www.youtube.com/@WildNOut/featured"
+                ><img
+                  src="https://yt3.googleusercontent.com/AVD-a6ssNbPjv768TnqwcoSDHggxYAoCZrhFfWC-hBKT6Kxru9gyO3ru4vnXzk9AVw8CHopj=s176-c-k-c0x00ffffff-no-rj"
+                  alt=""
+                  class="channel-profile-pic"
+                />
+              </a>
+            </div>
+
+            <div class="title-channelName-videoStats">
+              <div class="video-title">
+                <a href="https://www.youtube.com/watch?v=GL7Mo_B3O74" class="video-title-link">
+                <p class="title">
+                  Best of Kevin Hart on Wild 'N Out
+                </p></a>
+              </div>
+              <div class="chname">
+                <a href="https://www.youtube.com/@WildNOut/featured" class="channel-name-link">
+                <p class="channel-name">Wild 'N Out</p></a>
+              </div>
+              <div class="views">
+                <p class="view-count">37M views &#183; 4 years ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 7 -->
+        <div class="video-preview">
+          <div class="thumbnail-container">
+            <a href="https://www.youtube.com/watch?v=-AmjlRjMKsY"
+              ><img
+                src="https://i.ytimg.com/vi/BwhRWpHxKdM/maxresdefault.jpg"
+                class="thumbnail"
+                alt=""
+            /></a>
+            <div class="time-stats">1&#58;15&#58;13</div>
+          </div>
+
+          <div class="channel-info-video-stats">
+            <div class="channel-profile">
+              <a href="https://www.youtube.com/@TravisScottVEVO"
+                ><img
+                  src="https://yt3.googleusercontent.com/ytc/AOPolaTCMnmpZ_T8zxoOiyC-LNZzLZjSA1oPquXTOcjHjQ=s176-c-k-c0x00ffffff-no-rj"
+                  alt=""
+                  class="channel-profile-pic"
+                />
+              </a>
+            </div>
+
+            <div class="title-channelName-videoStats">
+              <div class="video-title">
+                <a href="https://www.youtube.com/watch?v=-AmjlRjMKsY" class="video-title-link">
+                <p class="title">
+                  Travis Scott - CIRCUS MAXIMUS
+                </p></a>
+              </div>
+              <div class="chname">
+                <a href="https://www.youtube.com/@TravisScottVEVO" class="channel-name-link">
+                <p class="channel-name">Travis Scott</p></a>
+              </div>
+              <div class="views">
+                <p class="view-count">1M views &#183; 1 day ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 8 -->
+        <div class="video-preview">
+          <div class="thumbnail-container">
+            <a href="https://www.youtube.com/watch?v=AtfoKoiIW-s&list=PL7BImOT2srcGehQIvjTCceu4YJIThs_EQ&index=7"
+              ><img
+                src="https://i.ytimg.com/vi/W3CDMcWlPyM/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLA2KyAPcwPbLoqYMSVD5jRiCCMiHw"
+                class="thumbnail"
+                alt=""
+            /></a>
+            <div class="time-stats">27&#58;37</div>
+          </div>
+
+          <div class="channel-info-video-stats">
+            <div class="channel-profile">
+              <a href="https://www.youtube.com/@aliabdaal"
+                ><img
+                  src="https://yt3.googleusercontent.com/ytc/AOPolaSAsI8U2mQCbtqoW6-fmDkwwnXvQvZca35CfLON=s176-c-k-c0x00ffffff-no-rj"
+                  alt=""
+                  class="channel-profile-pic"
+                />
+              </a>
+            </div>
+
+            <div class="title-channelName-videoStats">
+              <div class="video-title">
+                <a href="https://www.youtube.com/watch?v=AtfoKoiIW-s&list=PL7BImOT2srcGehQIvjTCceu4YJIThs_EQ&index=7" class="video-title-link">
+                <p class="title">
+                  28 Life Lessons from 28 Years in 28 Minutes
+
+                </p></a>
+              </div>
+              <div class="chname">
+                <a href="https://www.youtube.com/@aliabdaal" class="channel-name-link">
+                <p class="channel-name">Ali Abdaal</p></a>
+              </div>
+              <div class="views">
+                <p class="view-count">342K views &#183; 1 Year ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 9 -->
+        <div class="video-preview">
+          <div class="thumbnail-container">
+            <a href="https://www.youtube.com/watch?app=desktop&v=TWQpfq6VZbU"
+              ><img
+                src="https://i.ytimg.com/vi/TWQpfq6VZbU/maxresdefault.jpg"
+                class="thumbnail"
+                alt=""
+            /></a>
+            <div class="time-stats">18&#58;46</div>
+          </div>
+
+          <div class="channel-info-video-stats">
+            <div class="channel-profile">
+              <a href="https://www.youtube.com/@warikoo"
+                ><img
+                  src="https://yt3.googleusercontent.com/X9eoDIB9cgb1s-kvATRs1lQDcU4Fjc15NDV9s9FF8ck7IsA8u7OdijaernoDV9LLdePgjlt_=s900-c-k-c0x00ffffff-no-rj"
+                  alt=""
+                  class="channel-profile-pic"
+                />
+              </a>
+            </div>
+
+            <div class="title-channelName-videoStats">
+              <div class="video-title">
+                <a href="https://www.youtube.com/watch?app=desktop&v=TWQpfq6VZbU" class="video-title-link">
+                <p class="title">
+                  CHANGE the way you THINK about MONEY in 2023!
+
+                </p></a>
+              </div>
+              <div class="chname">
+                <a href="https://www.youtube.com/@warikoo" class="channel-name-link">
+                <p class="channel-name">warikoo</p></a>
+              </div>
+              <div class="views">
+                <p class="view-count">443K views &#183; 6 months ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 10 -->
+        <div class="video-preview">
+          <div class="thumbnail-container">
+            <a href="https://www.youtube.com/watch?v=qxQIcDrre1E"
+              ><img
+                src="https://miro.medium.com/v2/resize:fit:1400/0*fQ3O5e8-rX0MpHkH.jpg"
+                class="thumbnail"
+                alt=""
+            /></a>
+            <div class="time-stats">53&#58;37</div>
+          </div>
+
+          <div class="channel-info-video-stats">
+            <div class="channel-profile">
+              <a href="https://www.youtube.com/@AlexHormozi"
+                ><img
+                  src="https://yt3.googleusercontent.com/p0015Y5AbiwROJtOZPeXkhadnjOXOlygUzlyiv0zsAPJkh6Ur1Vr01qWJ8bvo5QdDLw_4Z724oY=s176-c-k-c0x00ffffff-no-rj"
+                  alt=""
+                  class="channel-profile-pic"
+                />
+              </a>
+            </div>
+
+            <div class="title-channelName-videoStats">
+              <div class="video-title">
+                <a href="https://www.youtube.com/watch?v=qxQIcDrre1E" class="video-title-link">
+                <p class="title">
+                  Watch these 55 minutes if you want to be a millionaire in 2023
+                </p></a>
+              </div>
+              <div class="chname">
+                <a href="https://www.youtube.com/@AlexHormozi" class="channel-name-link">
+                <p class="channel-name">Alex Hormozi</p></a>
+              </div>
+              <div class="views">
+                <p class="view-count">2.1M views &#183; 1 year ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 11 -->
+        <div class="video-preview">
+          <div class="thumbnail-container">
+            <a href="https://www.youtube.com/watch?v=Eq6hoHywaM4"
+              ><img
+                src="https://i.ytimg.com/vi/_Hq659EBLtw/maxresdefault.jpg"
+                class="thumbnail"
+                alt=""
+            /></a>
+            <div class="time-stats">24&#58;13</div>
+          </div>
+
+          <div class="channel-info-video-stats">
+            <div class="channel-profile">
+              <a href="https://www.youtube.com/@ImanGadzhi"
+                ><img
+                  src="https://yt3.googleusercontent.com/XDA6ig1JeTk6W84g4ipe4LhkWsghnDjq1Zuod27XxRrLkthoLBC3gj_zxQcop1kSBzw3BKIj=s176-c-k-c0x00ffffff-no-rj"
+                  alt=""
+                  class="channel-profile-pic"
+                />
+              </a>
+            </div>
+
+            <div class="title-channelName-videoStats">
+              <div class="video-title">
+                <a href="https://www.youtube.com/watch?v=Eq6hoHywaM4" class="video-title-link">
+                <p class="title">
+                  17 Laws Of The Top 1%
+                </p></a>
+              </div>
+              <div class="chname">
+                <a href="https://www.youtube.com/@ImanGadzhi" class="channel-name-link">
+                <p class="channel-name">Iman Gadzhi</p></a>
+              </div>
+              <div class="views">
+                <p class="view-count">1M views &#183; 1 month ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 12 -->
+        <div class="video-preview">
+          <div class="thumbnail-container">
+            <a href="https://www.youtube.com/watch?v=nGrnkrTk-JE"
+              ><img
+                src="https://i.ytimg.com/vi/nGrnkrTk-JE/maxresdefault.jpg"
+                class="thumbnail"
+                alt=""
+            /></a>
+            <div class="time-stats">12&#58;33</div>
+          </div>
+
+          <div class="channel-info-video-stats">
+            <div class="channel-profile">
+              <a href="https://www.youtube.com/@IshanSharma7390/featured"
+                ><img
+                  src="https://yt3.googleusercontent.com/omDV4RX5BjOw_R3J8L-qwETRq4qqy_uN5DTo58Trg1HW6TM2ejPGuVjtRjh2BrlGpeRLgaPAtA=s176-c-k-c0x00ffffff-no-rj"
+                  alt=""
+                  class="channel-profile-pic"
+                />
+              </a>
+            </div>
+
+            <div class="title-channelName-videoStats">
+              <div class="video-title">
+                <a href="https://www.youtube.com/watch?v=nGrnkrTk-JE" class="video-title-link">
+                <p class="title">
+                  How to WIN Friends & Influence People EXPLAINED in 12 Minutes!
+                </p></a>
+              </div>
+              <div class="chname">
+                <a href="https://www.youtube.com/@IshanSharma7390/featured" class="channel-name-link">
+                <p class="channel-name">Ishaan Sharma</p></a>
+              </div>
+              <div class="views">
+                <p class="view-count">20k views &#183; 1 month ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 13 -->
+        <div class="video-preview">
+          <div class="thumbnail-container">
+            <a href="https://www.youtube.com/watch?v=mkyxoeIOZ4M"
+              ><img
+                src="https://i.ytimg.com/vi/oTewktsaFWc/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLC2gzTsYVo8nG4HmTu1psuXmrnYPw"
+                class="thumbnail"
+                alt=""
+            /></a>
+            <div class="time-stats">37&#58;10</div>
+          </div>
+
+          <div class="channel-info-video-stats">
+            <div class="channel-profile">
+              <a href="https://www.youtube.com/@AmanDhattarwal"
+                ><img
+                  src="https://yt3.googleusercontent.com/VlWJZZnCdw63GAZ8SHYJ_3ZdC_e0hWl3IEEPZN08Ps0DitpRDgxziY42DIqdQhkGIba7yn7xd0Y=s176-c-k-c0x00ffffff-no-rj"
+                  alt=""
+                  class="channel-profile-pic"
+                />
+              </a>
+            </div>
+
+            <div class="title-channelName-videoStats">
+              <div class="video-title">
+                <a href="https://www.youtube.com/watch?v=mkyxoeIOZ4M" class="video-title-link">
+                <p class="title">
+                  How to become a Millionaire in early 20's ? Step by step guide
+                </p></a>
+              </div>
+              <div class="chname">
+                <a href="https://www.youtube.com/@AmanDhattarwal" class="channel-name-link">
+                <p class="channel-name">Aman Dhattarwal</p></a>
+              </div>
+              <div class="views">
+                <p class="view-count">2.7M views &#183; 1 year ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 14 -->
+        <div class="video-preview">
+          <div class="thumbnail-container">
+            <a href="https://www.youtube.com/watch?v=-HkBwSazZsM"
+              ><img
+                src="https://i.ytimg.com/vi/-HkBwSazZsM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCq4o9o886z-5uy2mBqDVcsuwikFA"
+                class="thumbnail"
+                alt=""
+            /></a>
+            <div class="time-stats">2&#58;28&#58;40</div>
+          </div>
+
+          <div class="channel-info-video-stats">
+            <div class="channel-profile">
+              <a href="https://www.youtube.com/@nikhil.kamath/featured"
+                ><img
+                  src="https://yt3.googleusercontent.com/K1_AyjHQIl7g215rXyjEcaTibjxNYYGtzt6FR7kHSsBYz7vFJUy6FiqothZ5u4VhQQZ3dMlNnw=s176-c-k-c0x00ffffff-no-rj"
+                  alt=""
+                  class="channel-profile-pic"
+                />
+              </a>
+            </div>
+
+            <div class="title-channelName-videoStats">
+              <div class="video-title">
+                <a href="https://www.youtube.com/watch?v=-HkBwSazZsM" class="video-title-link">
+                <p class="title">
+                  WTF is ChatGPT: Heaven or Hell?
+                </p></a>
+              </div>
+              <div class="chname">
+                <a href="https://www.youtube.com/@nikhil.kamath/featured" class="channel-name-link">
+                <p class="channel-name">Nikhil Kamath</p></a>
+              </div>
+              <div class="views">
+                <p class="view-count">478k views &#183; 3 months ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 15 -->
+        <div class="video-preview">
+          <div class="thumbnail-container">
+            <a href="https://www.youtube.com/watch?v=GR6mTKCXqgY"
+              ><img
+                src="https://i.ytimg.com/vi/GR6mTKCXqgY/maxresdefault.jpg"
+                class="thumbnail"
+                alt=""
+            /></a>
+            <div class="time-stats">10&#58;48</div>
+          </div>
+
+          <div class="channel-info-video-stats">
+            <div class="channel-profile">
+              <a href="https://www.youtube.com/@zomato"
+                ><img
+                  src="https://yt3.googleusercontent.com/njRvfafjnzAMrLVkiekVQdKac8ziQtz4-hSIYWGN5tYDT4eaXkiBM6lySNBZb_Y-tLuGXtRqlpI=s176-c-k-c0x00ffffff-no-rj"
+                  alt=""
+                  class="channel-profile-pic"
+                />
+              </a>
+            </div>
+
+            <div class="title-channelName-videoStats">
+              <div class="video-title">
+                <a href="https://www.youtube.com/watch?v=GR6mTKCXqgY" class="video-title-link">
+                <p class="title">
+                  Samay Raina's detox challenge
+                </p></a>
+              </div>
+              <div class="chname">
+                <a href="https://www.youtube.com/@zomato" class="channel-name-link">
+                <p class="channel-name">Zomato</p></a>
+              </div>
+              <div class="views">
+                <p class="view-count">2.2M views &#183; 1 year ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- shorts grid -->
+
+      <div class="shorts-acknowledgement">
+        <img
+          src="https://www.edigitalagency.com.au/wp-content/uploads/Youtube-shorts-icon-png.png"
+          alt=""
+          class="shorts-acknowledgement-img"
+        />
+
+        <div class="shorts-acknowledgement-txt">YouTube Shorts</div>
+      </div>
+
+      <section class="yt-shorts-grid">
+        <!-- 1 -->
+        <div class="yt-shorts-preview">
+          <div class="yt-shorts-thumbnail">
+            <a href="https://www.youtube.com/shorts/C_v9IhKsI5I">
+            <img
+              src="https://i.ytimg.com/vi/C_v9IhKsI5I/oar2.jpg?sqp=-oaymwEaCJUDENAFSFXyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLD2MK5CgoHoOQLMWY6BBE_46GdOLw"
+              alt=""
+              class="shorts-thumbnail"
+            />
+            </a>
+          </div>
+          <div class="yt-shorts-title">
+            <a href="https://www.youtube.com/shorts/C_v9IhKsI5I" class="shorts-title-link">
+            The Pressure of Instagram's Perfect Lifestyle - True Story.</a></div>
+          <div class="yt-shorts-viewcount">2&#46;2M views</div>
+        </div>
+
+        <!-- 2 -->
+        <div class="yt-shorts-preview">
+          <div class="yt-shorts-thumbnail">
+            <a href="https://www.youtube.com/shorts/Kw0DNnkav3Q">
+            <img
+              src="https://i.ytimg.com/vi/Kw0DNnkav3Q/oar2.jpg?sqp=-oaymwEaCJUDENAFSFXyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDQpMLkYmy_PO2UQPL-OG6rIHWhnA"
+              alt=""
+              class="shorts-thumbnail"
+            /></a>
+          </div>
+          <div class="yt-shorts-title">
+            <a href="https://www.youtube.com/shorts/Kw0DNnkav3Q" class="shorts-title-link">
+            The ONLY YouTube Videos YOU NEED TO WATCH 
+            </a></div>
+          <div class="yt-shorts-viewcount">22k views</div>
+        </div>
+
+        <!-- 3 -->
+        <div class="yt-shorts-preview">
+          <div class="yt-shorts-thumbnail">
+            <a href="https://www.youtube.com/watch?v=yurTbuADYsQ&list=LL&index=26">
+            <img
+              src="https://i.ytimg.com/vi/TlI0dN9MgZo/oar2.jpg?sqp=-oaymwEaCJUDENAFSFXyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAxxwvEzBrRE996AuvR7sthIs1TLA"
+              alt=""
+              class="shorts-thumbnail"
+            /></a>
+          </div>
+          <div class="yt-shorts-title">
+            <a href="https://www.youtube.com/watch?v=yurTbuADYsQ&list=LL&index=26" class="shorts-title-link">
+              7 YouTube Channels to LEARN TO CODE FOR FREE 
+            </a></div>
+          <div class="yt-shorts-viewcount">30k views</div>
+        </div>
+
+        <!-- 4 -->
+        <div class="yt-shorts-preview">
+          <div class="yt-shorts-thumbnail">
+            <a href="https://www.youtube.com/watch?v=qwtbuYiT_nk&list=LL&index=33">
+            <img
+              src="https://i.ytimg.com/vi/Iq0yOm1lQNw/oar2.jpg?sqp=-oaymwEaCJUDENAFSFXyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAuITMej8ROcC2iT-_vLgkJ85-F-g"
+              alt=""
+              class="shorts-thumbnail"
+            /></a>
+          </div>
+          <div class="yt-shorts-title">
+            <a href="https://www.youtube.com/watch?v=qwtbuYiT_nk&list=LL&index=33" class="shorts-title-link">
+              3 Series You Must Watch
+            </a></div>
+          <div class="yt-shorts-viewcount">229k views</div>
+        </div>
+
+        <!-- 5 -->
+        <div class="yt-shorts-preview">
+          <div class="yt-shorts-thumbnail">
+            <a href="https://www.youtube.com/shorts/lTmLserI4C8">
+            <img
+              src="https://i.ytimg.com/vi/lTmLserI4C8/oar2.jpg?sqp=-oaymwEaCJUDENAFSFXyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLC0ydh36QuM9OUIhJHVg-GZ-Z_RIg"
+              alt=""
+              class="shorts-thumbnail"
+            /></a>
+          </div>
+          <div class="yt-shorts-title">
+            <a href="https://www.youtube.com/shorts/lTmLserI4C8" class="shorts-title-link">
+              How to create habits
+            </a></div>
+          <div class="yt-shorts-viewcount">12k views</div>
+        </div>
+
+        <!-- 6 -->
+        <div class="yt-shorts-preview">
+          <div class="yt-shorts-thumbnail">
+            <a href="https://www.youtube.com/shorts/-bE4575ubL0">
+            <img
+              src="https://i.ytimg.com/vi/-bE4575ubL0/oar2.jpg?sqp=-oaymwEaCJUDENAFSFXyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCIl_6Y2SU3yefdbKxYvM8dvpeuTA"
+              alt=""
+              class="shorts-thumbnail"
+            /></a>
+          </div>
+          <div class="yt-shorts-title">
+            <a href="https://www.youtube.com/shorts/-bE4575ubL0" class="shorts-title-link">
+              Why Learning ENGLISH Is More Important Than Ever
+            </a></div>
+          <div class="yt-shorts-viewcount">90k views</div>
+        </div>
+
+        <!-- 7 -->
+        <div class="yt-shorts-preview">
+          <div class="yt-shorts-thumbnail">
+            <a href="https://www.youtube.com/shorts/bx42GTgHyEc">
+            <img
+              src="https://i.ytimg.com/vi/bx42GTgHyEc/oar2.jpg?sqp=-oaymwEaCJUDENAFSFXyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDms3jNpfxbB4SPgM6ef9XpOLNxLA"
+              alt=""
+              class="shorts-thumbnail"
+            /></a>
+          </div>
+          <div class="yt-shorts-title">
+            <a href="https://www.youtube.com/shorts/bx42GTgHyEc" class="shorts-title-link">
+              12 things that COLLEGE should have taught us BUT DIDN'T! 
+            </a></div>
+          <div class="yt-shorts-viewcount">2.1M views</div>
+        </div>
+
+        <!-- 8 -->
+
+        <div class="yt-shorts-preview">
+          <div class="yt-shorts-thumbnail">
+            <a href="https://www.youtube.com/shorts/6vm0PEQS6U8">
+            <img
+              src="https://i.ytimg.com/vi/6vm0PEQS6U8/oar2.jpg?sqp=-oaymwEaCJUDENAFSFXyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCofX4pSKikYIhs6IfZ6LzSN6dEmQ"
+              alt=""
+              class="shorts-thumbnail"
+            /></a>
+          </div>
+          <div class="yt-shorts-title">
+            <a href="https://www.youtube.com/shorts/6vm0PEQS6U8" class="shorts-title-link">
+              The Art of Negotiating
+            </a></div>
+          <div class="yt-shorts-viewcount">122k views</div>
+        </div>
+      </section>
+      <!-- shorts grid -->
+
+      <!-- youtube home page grid 2 -->
+
+
+      <!-- 1 -->
+      <section class="youtube-home-grid">
+        <div class="video-preview">
+          <div class="thumbnail-container">
+            <a href="https://www.youtube.com/watch?v=92bkNXvnpmg"
+              ><img
+                src="https://i.ytimg.com/vi/92bkNXvnpmg/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAWPg64Pfsf8UnYz-fOwM0kCNyK1Q"
+                class="thumbnail"
+                alt=""
+            /></a>
+            <div class="time-stats">8&#58;50</div>
+          </div>
+
+          <div class="channel-info-video-stats">
+            <div class="channel-profile">
+              <a href="https://www.youtube.com/@harkirat1"
+                ><img
+                  src="https://yt3.googleusercontent.com/MeY_fGNrjVLV0PVOBN7dRWzMBS0y41YGm55LOaJ02cXV82a7Np9pYxxhHFqdYdncEy1I2cYR=s176-c-k-c0x00ffffff-no-rj"
+                  alt=""
+                  class="channel-profile-pic"
+                />
+              </a>
+            </div>
+
+            <div class="title-channelName-videoStats">
+              <div class="video-title">
+                <a href="https://www.youtube.com/watch?v=92bkNXvnpmg" class="video-title-link">
+                <p class="title">
+                  How Much HTML, CSS, & JavaScript Is Enough In 2023
+                </p></a>
+              </div>
+              <div class="chname">
+                <a href="https://www.youtube.com/@harkirat1" class="channel-name-link">
+                <p class="channel-name">Harkirat Singh</p></a>
+              </div>
+              <div class="views">
+                <p class="view-count">183k views &#183; 1 month ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="video-preview">
+          <div class="thumbnail-container">
+            <a href="https://www.youtube.com/watch?v=hBtxSzKhM44"
+              ><img
+                src="https://i.ytimg.com/vi/hBtxSzKhM44/maxresdefault.jpg"
+                class="thumbnail"
+                alt=""
+            /></a>
+            <div class="time-stats">19&#58;21</div>
+          </div>
+
+          <div class="channel-info-video-stats">
+            <div class="channel-profile">
+              <a href="https://www.youtube.com/@marktilbury"
+                ><img
+                  src="https://yt3.googleusercontent.com/_fojvheMDTi4nrbfVv8LqWBkr41GS9wcezdc8B2ZSO9Xofuy5K0bx7CAWuhHUA8o1YFJIF4Z=s176-c-k-c0x00ffffff-no-rj"
+                  alt=""
+                  class="channel-profile-pic"
+                />
+              </a>
+            </div>
+
+            <div class="title-channelName-videoStats">
+              <div class="video-title">
+                <a href="https://www.youtube.com/watch?v=hBtxSzKhM44" class="video-title-link">
+                <p class="title">
+                  After I Read 40 Books on Money - Here's What Will Make You Rich
+                </p></a>
+              </div>
+              <div class="chname">
+                <a href="https://www.youtube.com/@marktilbury" class="channel-name-link">
+                <p class="channel-name">Mark Tilbury</p></a>
+              </div>
+              <div class="views">
+                <p class="view-count">2M views &#183; 2 months ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="video-preview">
+          <div class="thumbnail-container">
+            <a href="https://www.youtube.com/watch?v=Takobi8jsEI"
+              ><img
+                src="https://i.ytimg.com/vi/i-q0L0qZ5_o/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDXIsYjCfiywWEBre86pNLgvbn_CA"
+                class="thumbnail"
+                alt=""
+            /></a>
+            <div class="time-stats">9&#58;10</div>
+          </div>
+
+          <div class="channel-info-video-stats">
+            <div class="channel-profile">
+              <a href="https://www.youtube.com/@Charismaoncommand"
+                ><img
+                  src="https://yt3.googleusercontent.com/ytc/AOPolaTL1tcdl863ERLcQk0uoNvdpKvfHU391Nsqq6cEHg=s176-c-k-c0x00ffffff-no-rj"
+                  alt=""
+                  class="channel-profile-pic"
+                />
+              </a>
+            </div>
+
+            <div class="title-channelName-videoStats">
+              <div class="video-title">
+                <a href="https://www.youtube.com/watch?v=Takobi8jsEI" class="video-title-link">
+                <p class="title">
+                  5 Social Mistakes That Make You Instantly Unlikeable
+                </p></a>
+              </div>
+              <div class="chname">
+                <a href="https://www.youtube.com/@Charismaoncommand" class="channel-name-link">
+                <p class="channel-name">Charisma on Command</p></a>
+              </div>
+              <div class="views">
+                <p class="view-count">2.2M views &#183; 1 year ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4 -->
+        <div class="video-preview">
+          <div class="thumbnail-container">
+            <a href="https://www.youtube.com/watch?v=Fla6Xvslalo"
+              ><img
+                src="https://i.ytimg.com/vi/Fla6Xvslalo/maxresdefault.jpg"
+                class="thumbnail"
+                alt=""
+            /></a>
+            <div class="time-stats">27&#58;37</div>
+          </div>
+
+          <div class="channel-info-video-stats">
+            <div class="channel-profile">
+              <a href="https://www.youtube.com/@dhruvrathee"
+                ><img
+                  src="https://yt3.googleusercontent.com/oQ2NQMuq-9IS6_MZdsGXa0RWecaACremA01Z7jo-YpoEF1H6PyUF8PZzXkV10OYwSP3UMJDeTg=s176-c-k-c0x00ffffff-no-rj"
+                  alt=""
+                  class="channel-profile-pic"
+                />
+              </a>
+            </div>
+
+            <div class="title-channelName-videoStats">
+              <div class="video-title">
+                <a href="https://www.youtube.com/watch?v=Fla6Xvslalo" class="video-title-link">
+                <p class="title">
+                  Theory of Evolution | Fact vs Fiction
+                </p></a>
+              </div>
+              <div class="chname">
+                <a href="https://www.youtube.com/@dhruvrathee" class="channel-name-link">
+                <p class="channel-name">Dhruv Rathee</p></a>
+              </div>
+              <div class="views">
+                <p class="view-count">5.9M views &#183; 3 months ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5 -->
+        <div class="video-preview">
+          <div class="thumbnail-container">
+            <a href="https://www.youtube.com/watch?v=SVxRp9XyCwg&list=PL9uK6jbdzfVeNetuyNpwMdT1UWrj_OXbi&index=4"
+              ><img
+                src="https://i.ytimg.com/vi/SVxRp9XyCwg/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLANjBBO6GtUhakpbgkAz3XisFFe0Q"
+                class="thumbnail"
+                alt=""
+            /></a>
+            <div class="time-stats">10&#58;48</div>
+          </div>
+
+          <div class="channel-info-video-stats">
+            <div class="channel-profile">
+              <a href="https://www.youtube.com/@RanveerAllahbadia"
+                ><img
+                  src="https://yt3.googleusercontent.com/ytc/AOPolaRKh2nNSZZhgGrSzwZgB_9fQet1a4CKbvtMS0ACOA=s176-c-k-c0x00ffffff-no-rj"
+                  alt=""
+                  class="channel-profile-pic"
+                />
+              </a>
+            </div>
+
+            <div class="title-channelName-videoStats">
+              <div class="video-title">
+                <a href="https://www.youtube.com/watch?v=SVxRp9XyCwg&list=PL9uK6jbdzfVeNetuyNpwMdT1UWrj_OXbi&index=4" class="video-title-link">
+                <p class="title">
+                  HANDSOME Banna Hai? Yeh 10 Hacks Jaaniye
+                </p></a>
+              </div>
+              <div class="chname">
+                <a href="https://www.youtube.com/@RanveerAllahbadia" class="channel-name-link">
+                <p class="channel-name">Ranveer Allahbadia</p></a>
+              </div>
+              <div class="views">
+                <p class="view-count">738K views &#183; 11 months ago</p>
+              </div>
+            </div>
+          </div>
+        </section>
+    </main>
+    <!-- youtube home page grid 2 -->
+  </body>
+</html>

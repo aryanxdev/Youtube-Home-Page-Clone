@@ -1,0 +1,143 @@
+.youtube-home-grid{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 30px;
+    border-bottom: 5px solid rgb(208, 208, 208);
+    padding-bottom: 30px;
+}
+
+@media (max-width:950px) {
+    .youtube-home-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width:951.02px) and (max-width:1299.02px) {
+    .youtube-home-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (min-width:1300.02px) and (max-width:1600.02px) {
+    .youtube-home-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+.video-preview{
+    /* margin-top: 10px;
+    margin-left: 10px; 
+    margin-right: 5px;
+    vertical-align: top; */
+    min-width: 200px;
+    max-width:400px;
+} 
+
+.thumbnail-container{
+    position: relative;
+}
+
+.time-stats{
+    color: white;
+    background-color: black;
+    position: absolute;
+    bottom: 7px;
+    right: 4px;
+    font-weight: 500;
+    font-size: 13px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 4px;
+}
+
+.thumbnail{
+    width: 100%;
+    border-radius: 15px;
+}
+
+
+.channel-info-video-stats{
+    display: grid;
+    grid-template-columns: 45px 1fr;
+}
+
+
+.channel-profile{
+    /* width: 36px; */
+    /* display: inline-block; */
+    /* vertical-align: top; */
+    margin-right: 13px;
+    margin-top: 7px;
+}
+
+
+.channel-profile-pic{
+    width:100%;
+    border-radius: 36px;
+}
+
+
+.channel-profile-pic:hover{
+    cursor: pointer;
+}
+
+
+/* .title-channelName-videoStats{
+    display: inline-block; 
+    width: 70%;
+} */
+
+
+.video-title{
+    /* vertical-align: top; */
+    /* width: 100%; */
+    font-weight: 500;
+    margin-top: 7px;
+    font-size: 16px;
+    line-height: 22px;
+    max-width: 300px;
+}
+
+.video-title-link{
+    text-decoration: none;
+    color: black;
+}
+
+.video-title:hover{
+    cursor: pointer;
+}
+
+
+.chname,.views{
+    color: rgb(73, 72, 72);
+    font-size: 14px;
+}
+
+.chname{
+    width: max-content;
+}
+
+.channel-name{
+    margin-top: 8px;
+    color: rgb(73, 72, 72);
+}
+
+.channel-name-link{
+    text-decoration: none; 
+    
+    
+    /*bhai link vala underline to <a> tag laga rha na to link vala underline hatane k liye bhi to <a> tag vale class se ko hi target krna padega na*/
+}
+
+
+.channel-name:hover{
+    cursor: pointer;
+    color: black;
+}
+
+
+.views{
+    margin-top: 4px;
+}
